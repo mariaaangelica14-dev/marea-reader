@@ -54,7 +54,7 @@ const books = [
   { title: "Una educación", author: "Tara Westover", cover: "education", color: "cream", category: "Biografías" },
   { title: "Los astronautas", author: "Laura Ferrero", cover: "astronauts", color: "pink", category: "Ficción" },
   },
-  { title: "Revelación de la cruz", author: "Cesar castellanos", kind: "sun" },
+  { title: "Revelación de la cruz", author: "César Castellanos", cover: "sun", color: "cream", category: "Ensayo" },
   ];
 
 function BookCover({ kind, size = "regular" }: { kind: string; size?: "regular" | "small" }) {
