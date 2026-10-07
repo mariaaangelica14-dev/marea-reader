@@ -1,1 +1,10 @@
-{}
+{
+  "description": "Provides a user-friendly platform for reading digital books with an intuitive interface designed to enhance the reading experience for all users.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
