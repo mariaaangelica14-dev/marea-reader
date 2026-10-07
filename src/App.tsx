@@ -53,7 +53,9 @@ const books = [
   { title: "El infinito en un junco", author: "Irene Vallejo", cover: "reed", color: "rust", category: "Ensayo" },
   { title: "Una educación", author: "Tara Westover", cover: "education", color: "cream", category: "Biografías" },
   { title: "Los astronautas", author: "Laura Ferrero", cover: "astronauts", color: "pink", category: "Ficción" },
-];
+  },
+  { title: "Revelación de la cruz", author: "Cesar castellanos", kind: "sun" },
+  ];
 
 function BookCover({ kind, size = "regular" }: { kind: string; size?: "regular" | "small" }) {
   return (
